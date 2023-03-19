@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+.DS_Store
+creds.py
+notebooks/__pycache__/creds.cpython-311.pyc
