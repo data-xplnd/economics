@@ -6,6 +6,8 @@ from io import StringIO
 from creds import pw
 from creds import db
 
+
+
 def add_table(df,table):
 
     # script to create sql database for needed tables
