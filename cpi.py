@@ -47,7 +47,7 @@ df=pd.read_csv(data)
 
 add_table(df,"core_cpi")
 
-print("CPI data added to db")
+print("Core CPI data added to db")
 
 # map the code to the names of the metrics and add the dataframe to database
 
