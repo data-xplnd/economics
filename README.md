@@ -4,7 +4,7 @@
 
 Looking into U.S. economic trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets and how they may correlate to one another. Scripts in this repository will be used to load into an Amazon RDS Database and then visualized in Tableau (https://public.tableau.com/app/profile/ryann.green3508)
 
-This project will work in three visible phases:
+This project will work in four visible phases:
 1. Identify which economic metric I want to capture
 2. Identify the datasource for each metric
 3. Create Python scripts to pull data and load into Amazon RDS Database
