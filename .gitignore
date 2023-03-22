@@ -4,4 +4,5 @@ creds.py
 notebooks/__pycache__/creds.cpython-311.pyc
 *.csv
 *.pyc
-*.py
+
+predictions.py
