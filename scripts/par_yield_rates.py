@@ -19,19 +19,20 @@ year =1990
 dfs=[]
 
 while year < 2024:
+
     print(year)
-    
-    
+
+
     url=f"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value={year}"
 
     df=pd.read_html(url)
-    
-    # print(df[0])
-    dfs.append(df[0])
-    
+
+    df2=df[0].drop(df[0].columns[[ 1, 2]], axis=1)
+    dfs.append(df2)
+
     year+=1
 
-print(dfs)
+# print(dfs)
 
 data_concat = pd.concat(dfs,             
                       ignore_index = True,
