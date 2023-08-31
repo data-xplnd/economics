@@ -6,3 +6,9 @@ notebooks/__pycache__/creds.cpython-311.pyc
 *.pyc
 
 predictions.py
+
+# Default .gitignore content added by dbt Cloud
+target/
+dbt_packages/
+logs/
+# end dbt Cloud content
