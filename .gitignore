@@ -11,4 +11,5 @@ predictions.py
 target/
 dbt_packages/
 logs/
+scripts/
 # end dbt Cloud content
